@@ -1,6 +1,6 @@
 # Server Hardening Scripts
 
-Scripts para desplegar Fail2ban o CrowdSec en Debian/Ubuntu.
+Conjunto de scripts para endurecimiento básico de Debian 12 en entornos virtualizados (Proxmox, LXC, KVM)
 
 ## CrowdSec
 ```bash
