@@ -8,6 +8,12 @@ curl -s https://raw.githubusercontent.com/lalonar/server-hardening/main/install_
 ## Secure ssh
 curl -s https://raw.githubusercontent.com/lalonar/server-hardening/main/secure_ssh.sh | bash
 
+
+## Rkhunter
+curl -s https://raw.githubusercontent.com/lalonar/server-hardening/main/install_rkhunter.sh | sudo bash
+
+## Auditd
+curl -s https://raw.githubusercontent.com/lalonar/server-hardening/main/auditd_setup.sh | sudo bash
+
 ## Fail2ban
 curl -s https://raw.githubusercontent.com/lalonar/server-hardening/main/isntall_fail2ban.sh | bash
-
