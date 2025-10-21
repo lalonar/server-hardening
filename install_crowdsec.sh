@@ -11,6 +11,7 @@ echo "[*] Agregando repositorio oficial de CrowdSec..."
 curl -s https://packagecloud.io/install/repositories/crowdsec/crowdsec/script.deb.sh | sudo bash
 
 echo "[*] Instalando CrowdSec y el bouncer de firewall..."
+sudo apt update
 sudo apt install -y crowdsec crowdsec-firewall-bouncer-iptables
 
 echo "[*] Habilitando y arrancando servicios..."
